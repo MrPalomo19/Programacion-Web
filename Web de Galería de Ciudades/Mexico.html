@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Blog">
+        <meta name="keywords" content="México,Tokyo,Londros,Pares">
+        <!-- Cuidado con el tiempo de recarga
+        <meta http-equiv="refresh" content="20";URL=./1DivSemanticaEstils.html" >
+    -->
+    <meta name="viewport" content="width"=device-width, initial-scale="1.0">
+    <title> Ejemplo de Galeria</title>
+
+    <style>
+        div.contenedor{
+            width: 100%;
+            border: 1px solid gray;
+        }
+
+        header, footer {
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+
+        nav{
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+
+        nav ul{
+            list-style-type: nome;
+            padding: 0;
+        }
+
+        nav ul a{
+            text-decoration: nome;
+        }
+
+        article{
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        img {
+            margin: auto;
+        }
+        
+    </style>
+    </head>
+
+<body>
+
+    <div class="contenedor">
+
+        <header>
+            <h1>Galeria de Ciudades</h1>
+        </header>
+
+<nav>
+    <ul>
+        <li><a href="Paris.html">Paris</a></li>
+        <li><a href="Tokyo.html">Tokyo</a></li>
+        <li><a href="Londres.html">Londres</a></li>
+        <li><a href="index.html">Inicio</a></li>
+    </ul>
+</nav>
+<section>
+    <article>
+        <h1 align="center"> <span style="color:red">México</span></h1>
+        <p>México cuyo nombre oficial es Estados Unidos Mexicanos, es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México. De acuerdo con la constitución vigente, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas</p>
+        <p>México es el décimo país más poblado del mundo, con una población estimada en más de 130 millones de personas en 2023. La mayoría de ellas tiene como lengua materna el español, al que el estado reconoce como lengua nacional junto a 68 lenguas indígenas propias del país, si bien en el país se hablan alrededor de 287 variedades lingüísticas. Estas cifras convierten a México en el país con mayor número de hispanohablantes, así como en el séptimo país con mayor diversidad lingüística en el mundo.</p>
+        <img src="mexico.jpg" alt="Imagen de México" width="500">
+    </article>
+</section>
+<footer> Copyright &copy; itorizaba.edu.mx</footer>
+    </div>
+</body>
+</html>
